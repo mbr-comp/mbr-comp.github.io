@@ -1,14 +1,7 @@
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-
-Alternatively, for H1 and H2, an underline-ish style:
-
-Alt-H1
-======
-
-Alt-H2
-------
+# James' Technology Project Portal
+## Welcome! I'm a tech hobbyist in my free time and here I post my current and completed projects.
+##
+# Transferring Files from Windows to Linux using SSH, Filezilla, and SFTP.
+##
+# PiHole - Network wide Ad Blocker for the home network
+##
