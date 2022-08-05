@@ -29,6 +29,9 @@ sudo ufw allow 22/tcp
 ```
 openssh uses port 22 by default, which is why this is the port we enabled.
 
+5. Next, I switched to the Windows PC and installed the program [FileZilla](https://filezilla-project.org/).
+
+
 to be continued. . . . . . . . . 
 
 # PiHole - Network wide Ad Blocker for the home network
