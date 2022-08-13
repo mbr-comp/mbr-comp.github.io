@@ -46,9 +46,17 @@ hostname -I | awk '{print $1}'
   title="Click on Site Manager"
   style="display: inline-block; margin: 0 auto; max-width: 600px"> -->
 
- It'll open a new window, with a set of more buttons at the bottom. Click "New Site". On the right, there are 4 boxes that are important. Switch the protocol to SFTP in the dropdown menu. Then add the linux machine IP address in the Host box. Lastly, enter the username and password of the linux machine right below that, then click the connect button. FileZilla will display a warning message saying you should be extra careful that you entered all the info correctly, and if you're sure, check the "Always trust this host, add this key to the cache."
+ It'll open a new window, with a set of more buttons at the bottom. Click "New Site". 
+ 
+ ![Click on New Site](Images/FileZilla_pics/FileZilla_setup_pic_2.png)
+ 
+ On the right, there are 4 boxes that are important. Switch the protocol to SFTP in the dropdown menu. Then add the linux machine IP address in the Host box. Lastly, enter the username and password of the linux machine right below that, then click the connect button.
+ 
+ ![Change Dropdown to SFTP, Fill in Host IP, username, and password](Images/FileZilla_pics/FileZilla_setup_pic_3.png)
 
-7. At this point, I've connected to my linux pc and have access to the filesystem. 
+  FileZilla will display a warning message saying you should be extra careful that you entered all the info correctly, and if you're sure, check the "Always trust this host, add this key to the cache."
+
+8. At this point, I've connected to my linux pc and have access to the filesystem. 
 
 to be continued. . . . . . . . . 
 
