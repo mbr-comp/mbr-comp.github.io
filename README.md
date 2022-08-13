@@ -35,7 +35,13 @@ hostname -I | awk '{print $1}'
 ```
 >This command is broken into two parts. `hostname -I` spits out the machine's IP address along with info I don't need, like the MAC address etc. Piping the command into `awk '{print $1}'` gets the first section of output, in this case the IP address.
 
-6. Next, I switched to the Windows PC and installed the program [FileZilla](https://filezilla-project.org/). Follow the installation instructions and launch FileZilla. In the top left of the main window, right below the "File" tab, click on the button "Site Manager" button. It'll open a new window, with a set of more buttons at the bottom. Click "New Site". On the right, there are 4 boxes that are important. Switch the protocol to SFTP in the dropdown menu. Then add the linux machine IP address in the Host box. Lastly, enter the username and password of the linux machine right below that, then click the connect button. FileZilla will display a warning message saying you should be extra careful that you entered all the info correctly, and if you're sure, check the "Always trust this host, add this key to the cache."
+6. Next, I switched to the Windows PC and installed the program [FileZilla](https://filezilla-project.org/). Follow the installation instructions and launch FileZilla. 
+
+7. In the top left of the main window, right below the "File" tab, click on the button "Site Manager" button.
+
+![Click on Site Manager](jbr-tech.github.io/Images/FileZilla_pics/FileZilla_setup_pic_1.png)
+
+ It'll open a new window, with a set of more buttons at the bottom. Click "New Site". On the right, there are 4 boxes that are important. Switch the protocol to SFTP in the dropdown menu. Then add the linux machine IP address in the Host box. Lastly, enter the username and password of the linux machine right below that, then click the connect button. FileZilla will display a warning message saying you should be extra careful that you entered all the info correctly, and if you're sure, check the "Always trust this host, add this key to the cache."
 
 7. At this point, I've connected to my linux pc and have access to the filesystem. 
 
