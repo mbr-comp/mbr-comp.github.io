@@ -27,12 +27,18 @@ sudo systemctl enable --now ssh
 ```
 sudo ufw allow 22/tcp
 ```
-openssh uses port 22 by default, which is why this is the port we enabled.
+> openssh uses port 22 by default, which is why this is the port we enabled.
 
-5. Next, I switched to the Windows PC and installed the program [FileZilla](https://filezilla-project.org/).
+5. Before switching to the Windows PC, I made a note of the IP address on the Linux machine:
+```
+hostname -I | awk '{print $1}'
+```
+>This command is broken into two parts. `hostname -I` spits out the machine's IP address along with info I don't need, like the MAC address etc. Piping the command into `awk '{print $1}'` gets the first section of output, in this case the IP address.
 
+6. Next, I switched to the Windows PC and installed the program [FileZilla](https://filezilla-project.org/). Follow the installation instructions and launch FileZilla. In the top left of the main window, right below the "File" tab, click on the button "Site Manager" button. It'll open a new window, with a set of more buttons at the bottom. Click "New Site". On the right, there are 4 boxes that are important. Switch the protocol to SFTP in the dropdown menu. Then add the linux machine IP address in the Host box. Lastly, enter the username and password of the linux machine right below that, then click the connect button. FileZilla will display a warning message saying you should be extra careful that you entered all the info correctly, and if you're sure, check the "Always trust this host, add this key to the cache."
+
+7. At this point, I've connected to my linux pc and have access to the filesystem. 
 
 to be continued. . . . . . . . . 
 
 # PiHole - Network wide Ad Blocker for the home network
-
