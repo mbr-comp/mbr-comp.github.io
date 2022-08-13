@@ -39,7 +39,7 @@ hostname -I | awk '{print $1}'
 
 7. In the top left of the main window, right below the "File" tab, click on the button "Site Manager" button.
 
-![Click on Site Manager](jbr-tech.github.io/Images/FileZilla_pics/FileZilla_setup_pic_1.png)
+![Click on Site Manager](Images/FileZilla_pics/FileZilla_setup_pic_1.png)
 
  It'll open a new window, with a set of more buttons at the bottom. Click "New Site". On the right, there are 4 boxes that are important. Switch the protocol to SFTP in the dropdown menu. Then add the linux machine IP address in the Host box. Lastly, enter the username and password of the linux machine right below that, then click the connect button. FileZilla will display a warning message saying you should be extra careful that you entered all the info correctly, and if you're sure, check the "Always trust this host, add this key to the cache."
 
