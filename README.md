@@ -58,6 +58,12 @@ hostname -I | awk '{print $1}'
 
 8. At this point, I've connected to my linux pc and have access to the filesystem. 
 
-to be continued. . . . . . . . . 
+Now my computers are connected, and ready to share files between each other. All I need to do is drag and drop files from left to right or vice versa depending on which computer you want the file to transfer to. The PC running FileZilla will be on the left in this case.
+  ![Computers Connected ready for File Sharing](Images/FileZilla_pics/FileZilla_setup_pic_4.png)
+
+
+
+
+
 
 # PiHole - Network wide Ad Blocker for the home network
