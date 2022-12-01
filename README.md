@@ -1,6 +1,10 @@
 # Maxine's Technology Project Portal
  Welcome! I'm a tech hobbyist in my free time and here I post my current and completed projects.
 
+# Table of Contents
+- [Transferring Files from Windows to Linux using SSH, Filezilla, and SFTP](#transferring-files-from-windows-to-linux-using-ssh-filezilla-and-sftp)
+- [Installing Waveform 12 and ASIO4ALL Driver](#installing-waveform-12-and-asio4all-driver)
+
 # Transferring Files from Windows to Linux using SSH, Filezilla, and SFTP.
 In this tutorial I will show you how to send files from one computer to another over a network connection.
 
@@ -38,7 +42,6 @@ hostname -I | awk '{print $1}'
 6. Next, I switched to the Windows PC and installed the program [FileZilla](https://filezilla-project.org/). Follow the installation instructions and launch FileZilla. 
 
 7. In the top left of the main window, right below the "File" tab, click on the button "Site Manager" button.
-
 ![Click on Site Manager](Images/FileZilla_pics/FileZilla_setup_pic_1.png)
 <!-- <img
   src="Images/FileZilla_pics/FileZilla_setup_pic_1.png"
@@ -63,7 +66,8 @@ Now my computers are connected, and ready to share files between each other. All
 
 
 
+---
 
-
-
-# PiHole - Network wide Ad Blocker for the home network
+# Installing Waveform 12 and ASIO4ALL Driver
+In this tutorial, I will explain how to install Waveform 12, a free Digital Audio Workstation, along with some low latency drivers for windows (ASIO4All)
+<!-- # PiHole - Network wide Ad Blocker for the home network -->
