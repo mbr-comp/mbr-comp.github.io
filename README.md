@@ -71,3 +71,10 @@ Now my computers are connected, and ready to share files between each other. All
 # Installing Waveform 12 and ASIO4ALL Driver
 In this tutorial, I will explain how to install Waveform 12, a free Digital Audio Workstation, along with some low latency drivers for windows (ASIO4All)
 <!-- # PiHole - Network wide Ad Blocker for the home network -->
+
+## Introduction
+Waveform 12 is a free digital audio workstation (DAW) with a decent amount of plugins and tools included. There are other free digital audio workstations out there, however after some research this one is commonly recommended because it is beginner friendly. The ASIO4ALL driver is a sound driver for windows that aims to reduce audio latency from audio inputs and outputs and can be used in conjunction with most DAWs.
+
+[ASIO4ALL download page](https://www.asio4all.org/)
+
+[Waveform 12 account creation and download page](https://www.tracktion.com/welcome/waveform-free)
